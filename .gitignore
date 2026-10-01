@@ -1,0 +1,26 @@
+git init
+git config --global yamyam-ux
+git config --global om202526619@alm.buap.mx
+git config --global --list
+
+.gitignore
+ 
+git status
+git add .
+git status
+git commit -m "Primera versión de la aplicación"
+git remote add origin https://github.com/yamyam-ux/index.git
+git remote -v
+git branch -M main
+git push -u origin main
+
+
+
+
+//ir a la página de github
+// seleccionar el reposotorio creado
+// buscar la opción settings o  ajustes
+// buscar pages o páginas
+// bucan branch y selecciona en lugar de none  -> main
+// hacen click en save
+// recargar la página
